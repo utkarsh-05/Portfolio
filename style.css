@@ -178,6 +178,16 @@ body{
     border-radius: 1rem;
     align-items: center;
 }
+#click{
+    /* height: 10vh; */
+    font-size: 2rem;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    align-items: center;
+}
 #Other-skills{
     /* background-color: fuchsia; */
     height: 10vh;
@@ -323,7 +333,7 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
-    border: ;
+    /* border: ; */
 }
 #project2-text div{
     width: 100%;
