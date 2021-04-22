@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -20,7 +24,7 @@ body{
     top: 0px;
     justify-content: space-around;
     align-items: center;
-    background-color: #DE6C83;
+    background-color: #1FA6C1;
     color: white;
 }
 #navbar div{
@@ -29,12 +33,17 @@ body{
 #navbar div a{
     text-decoration: none;
     padding: 0.5rem;
+    /* color: #040562; */
+    /* color: white; */
+    font-weight: 500;
 }
 #navbar div a:hover{
     /* box-shadow: darkslategray; */
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background-color: #1FDAFF;
     border-radius: 1rem;
     font-weight: 500;
+    /* color: rgb(233, 227, 227); */
     box-shadow:  inset 0px 0px 9px 0px rgb(0 0 0 / 75%);
     /* box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 75%); */
 }
@@ -53,7 +62,7 @@ body{
     flex-wrap: wrap; */
     /* padding: 1rem; */
     margin-top: 10vh;
-    background-color: #dddddd;
+    background-color: #83DBEC;
     font-family: Gabriella;
     /* position: static; */
     /* position: relative;
@@ -92,7 +101,7 @@ body{
 .about{
     height: auto;
     min-height: 80vh;
-    background-color: #e63e3e;
+    background-color: #1FDAFF;
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -138,7 +147,7 @@ body{
 #skills{
     height: 100vh;
     width: 100vw;
-    background-color: dodgerblue;
+    background-color: #83DBEC;
     display: flex;
     flex-wrap: wrap;
     align-items: space-around;
@@ -163,6 +172,11 @@ body{
 #codeforces div{
     font-size: 2rem;
     width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    align-items: center;
 }
 #Other-skills{
     /* background-color: fuchsia; */
@@ -181,17 +195,31 @@ body{
     align-items: center;
     height: 8vh;
     font-size: 2rem;
-    background-color: white;
+    background-color: #1FA6C1;
     width: 20vw;
     border-radius: 1rem;
     text-align: center;
+}
+#portfolio-website{
+        padding: 0.5rem;
+        display: flex;
+         justify-content: center;
+        align-content: center; 
+        align-items: center;
+        height: 8vh;
+        font-size: 2rem;
+        background-color: #1FA6C1;
+        width: auto;
+        border-radius: 1rem;
+        text-align: center;
+    
 }
 
 #about-me{
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color: gold;
+    background-color: #1FDAFF;
     /* height: 10vh; */
     justify-content: center;
     align-content: center;
@@ -201,7 +229,7 @@ body{
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color: #dddddd;
+    background-color: #83DBEC;
     /* height: 10vh; */
     justify-content: center;
     align-content: center;
@@ -211,14 +239,14 @@ body{
     display: flex;
     height: auto;
     width: 100vw;
-    background-color: brown;
+    background-color: #1FDAFF;
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-around;
     align-items: space-around;
 }
 #my-project{
-        background-color: fuchsia;
+        background-color: #1FDAFF;
         height: 10vh;
         font-size: 3.5rem;
         margin-top: 10vh;
@@ -235,7 +263,7 @@ body{
     width: 100vw;
     min-height: 50vh;
     height: auto;
-    background-color: cyan;
+    background-color: #1FDAFF;
 }
 .project-box *{
     margin-top: 2vh;
@@ -252,7 +280,7 @@ body{
     flex-wrap: wrap;
 }
 #project2{
-    background-color: red;
+    background-color: #1FDAFF;
 }
 #project1-text{
     /* background-color: rgb(28, 11, 184); */
@@ -263,15 +291,15 @@ body{
     flex-wrap: wrap;
 }
 #project1-text div{
-    width: 100;
+    width: 100vw;
     text-align: center;
     font-size: 2rem;
 }
 #project-2{
-    background-color: gold;
+    background-color: #1FDAFF;
     height: auto;
     width: 100vw;
-    min-height: 55vh;
+    min-height: 65vh;
     display: flex;
     /* flex-wrap: nowrap; */
     justify-content: space-around;
@@ -280,8 +308,8 @@ body{
 #project2-text{
     width: 40vw;
     height: auto;
-    min-height: 50vh;
-    background-color: red;
+    min-height: 65vh;
+    background-color: #1FDAFF;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -290,17 +318,18 @@ body{
 #project2-image{
     width: 35vw;
     height: 55vh;
-    background-color: white;
+    background-color: #1FDAFF;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
+    border: ;
 }
 #project2-text div{
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    background-color: red;
+    background-color: #1FDAFF;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -316,13 +345,14 @@ body{
     margin-top: 0.5rem;
 }
 #project2-text{
-    background-color: red;
+    background-color: #1FDAFF;
 }
 #contact{
     width: 100%;
     height: auto;
     min-height: 60vh;
     /* background-color: cyan; */
+    background-color: #83DBEC;
     display: flex;
     flex-wrap: wrap;
 }
@@ -333,19 +363,16 @@ body{
     text-align: center;
     /* background-color: blueviolet; */
 }
-.social{
-    color: red;
-}
 .social-icons{
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    font-size: 3rem;
-    width: 50vw;
+    font-size: 2rem;
+    width: 30vw;
 }
 #gmail{
-    width: 40vw;
+    width: 60vw;
     display: flex;
     font-size: 2rem;
     justify-content: center;
